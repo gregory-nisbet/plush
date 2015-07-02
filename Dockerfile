@@ -8,3 +8,6 @@ RUN cd ~/plush && cabal update
 RUN cd ~/plush && cabal install --only-dependencies
 RUN cd ~/plush && cabal configure
 RUN cd ~/plush && cabal build
+
+RUN ln -s /root/plush/dist/build/plush/plush /usr/local/bin/
+RUN ln -s /root/plush/dist/build/recho/recho /usr/local/bin/
