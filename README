@@ -70,7 +70,7 @@ You can easily manipulate the state with these commands:
   plush --local status    # report status of the local server, if any
   plush --local stop      # stop the server if running, killing if necessary
   plush --local launch    # start if not running, then launch a web UI (default)
-  plush --local no-luanch # start if not running, then just report status
+  plush --local no-launch # start if not running, then just report status
 
 Replace `--local` with `--remote _host_` to manipulate the connection to plush
 on a remote host. The connection remote is a detached `ssh` process.  The
